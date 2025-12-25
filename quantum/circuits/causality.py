@@ -178,4 +178,3 @@ class CausalityAnalysisCircuit:
         variance = np.var(measurements)
         confidence = 1.0 / (1.0 + variance)
         return float(min(1.0, confidence))
-Claude

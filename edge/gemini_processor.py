@@ -160,5 +160,3 @@ class GeminiProcessor:
         except:
             # Fallback if JSON parsing fails
             return {'raw_response': text}
-
-"""
